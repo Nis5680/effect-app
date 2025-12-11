@@ -1,3 +1,7 @@
 <h1>Welcome to Effect App</h1>
-<h1>{{ userName() }}</h1>
-<button (click)="userName.set('Shah')">Change Name</button>
+<h1>{{ count() }}</h1>
+<button (click)="toggleValue()">Change Name</button>
+
+@if(displayheading){
+  <h1 style="background-color: green;">Page Heading</h1>
+}
